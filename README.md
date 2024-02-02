@@ -18,4 +18,4 @@ Motion by Alexandr Logunov
 
 Frontend by KayChicken
 
-![pic](https://github.com/KayChicken/SLT_APP_WEBSITE/assets/105989236/5bbf4556-d477-4e93-a7b6-8aeff7b48742)
+![pic1](https://github.com/KayChicken/SLT_APP_WEBSITE/assets/105989236/bd1222a1-2b14-4196-8528-cc90b1691bea)
