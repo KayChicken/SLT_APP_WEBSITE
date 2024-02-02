@@ -2,22 +2,22 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
 }
 
 
 body {
     --bg-color: #F9FFFD;
     --color: #141414;
-    --middle-text : #474747;
+    --middle-text: #474747;
     background-color: var(--bg-color);
-    
+
 }
 
 body.dark {
     --bg-color: #141414;
     --color: #F9FFFD;
-    --middle-text : #e3e3e3;
+    --middle-text: #e3e3e3;
     background-color: var(--bg-color);
 }
 
@@ -49,7 +49,8 @@ li {
 
 .header {
 
-    padding : 10px 0px;
+    padding: 10px 0px;
+
     &__container {
         display: flex;
         align-items: center;
@@ -107,7 +108,12 @@ li {
             padding: 4px 8px;
 
             .darkmode__switch {
-                color: var(--color)
+                color: var(--color);
+
+
+                .moon {
+                    color : #fff;
+                }
             }
 
 
@@ -142,17 +148,29 @@ li {
         align-items: center;
 
         .header__sighup {
-            color : var(--color);
+            cursor: pointer;
+            color: var(--color);
             border: 1px solid var(--color);
             padding: 5px 5px;
             border-radius: 5px;
+
+
         }
+
+        .header__sighup:hover {
+            background-color: var(--color);
+            color: var(--bg-color);
+            border: 1px solid var(--bg-color);
+
+        }
+
+
 
         .header__login {
-            color : var(--color)
+            color: var(--color)
         }
 
-        
+
     }
 
 
@@ -216,7 +234,7 @@ li {
         font-size: 15rem;
         width: 100%;
         color: var(--middle-text);
-        
+
         mix-blend-mode: hard-light;
 
 
@@ -234,7 +252,7 @@ li {
         background: var(--bg-color);
         mix-blend-mode: color;
         margin-left: -30px;
-      
+
     }
 
 
@@ -296,12 +314,12 @@ li {
             .view__title {
                 font-weight: 400;
                 margin-bottom: 20px;
-                
+
             }
 
 
 
-            
+
 
 
 
@@ -315,7 +333,7 @@ li {
             top: 0px;
         }
 
-        
+
 
 
 
@@ -343,9 +361,11 @@ li {
 
         svg {
             cursor: pointer;
-            border: 1px solid var(--bg-color);
+            border: 1px solid #fff;
             padding: 10px;
             border-radius: 5px;
+            color : #fff;
+            fill: #fff;
 
         }
     }
